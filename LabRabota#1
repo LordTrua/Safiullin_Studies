@@ -1,0 +1,100 @@
+using System;
+
+namespace LabRab_1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string As, Bs, Cs;
+            double A=0, B=0, C=0;
+            bool error=true;
+           Console.WriteLine("Разработал: Сафиуллин Антон Павлович РТ5-31Б");
+           Console.WriteLine("Программа \n" +"Решение уравнения: Ax^4+Bx^2+C=y:");
+            Console.WriteLine("Введите переменную А: ");
+            while (error==true) //Вввод переменной А
+            {
+                try
+                {
+                    As = Console.ReadLine();
+                    A = double.Parse(As);
+                }
+                catch
+                {
+                    Console.WriteLine("Введите корректную переменную A: ");
+                    As = Console.ReadLine();
+                    A = double.Parse(As);
+                }
+                finally
+                {
+                    error = false; 
+                }
+            }
+            error = true;
+            Console.WriteLine("Введите переменную B: ");
+            while (error == true)//Вввод переменной В
+            {
+                try
+                {
+                    Bs = Console.ReadLine();
+                    B = double.Parse(Bs);
+                }
+                catch
+                {
+                    Console.WriteLine("Введите корректную переменную B: ");
+                    Bs = Console.ReadLine();
+                    B = double.Parse(Bs);
+                }
+                finally
+                {
+                    error = false;
+                }
+            }
+            error = true;
+            Console.WriteLine("Введите переменную C: ");
+            while (error == true)//Вввод переменной С
+            {
+                try
+                {
+                    Cs = Console.ReadLine();
+                    C = double.Parse(Cs);
+                }
+                catch
+                {
+                    Console.WriteLine("Введите переменную C: ");
+                    Cs = Console.ReadLine();
+                    C = double.Parse(Cs);
+                }
+                finally
+                {
+                    error = false;
+                }
+            }
+            error = true;
+            double x1, x2, x3, x4;
+            double Diskr =(B*B) - (4*A*C); // Вычисление дискриминанта 
+            if (Diskr >= 0) // Если дискриминант больше 0, значит корни - числа R
+            {
+                double t1 = -B + Math.Sqrt(Diskr);
+                double t2 = -B - Math.Sqrt(Diskr);
+                x1 = Math.Sqrt(t1 / (2 * A));
+                x2 = -Math.Sqrt(t1 / (2 * A));
+                x3 = Math.Sqrt(t2 / (2 * A));
+                x4 = -Math.Sqrt(t2 / (2 * A));
+                Console.WriteLine($"Дискриминант: {Diskr}");
+                Console.WriteLine($"Корень 1: {x1}\nКорень 2: {x2}\nКорень 3: {x3}\nКорень 4: {x4}\n ");
+            }
+            else if (Diskr<0)// Если Дискриминант меньше 0, значит формируем комплексные корни
+            {
+                double kompDiskr = - Diskr;
+                Console.WriteLine($"Дискриминант: {Diskr}");
+                string x1k, x2k, x3k, x4k;
+                x1k =$"  {-B/(2*A)}+sqrt({kompDiskr:F4})i /{2*A}";
+                x2k = $" {-1*-B / (2 * A)}+sqrt({kompDiskr:F4})i /{2 * A}";
+                x3k = $" {-B / (2 * A)}-sqrt({kompDiskr:F4})i /{2 * A}";
+                x4k = $" {-1*-B / (2 * A)}-sqrt({kompDiskr:F4})i /{2 * A}";
+                Console.WriteLine($"Корень 1: {x1k}\nКорень 2: {x2k}\nКорень 3: {x3k}\nКорень 4: {x4k}\n ");
+            }
+        }
+    }
+}
