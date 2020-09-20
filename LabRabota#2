@@ -1,0 +1,169 @@
+using System;
+using System.Collections.Specialized;
+using System.ComponentModel.DataAnnotations;
+using System.Runtime.InteropServices.ComTypes;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Dynamic;
+
+namespace LabRabota_2
+{
+    class Program
+    {
+        public static void cout(string per)
+        {
+            Console.WriteLine(per);
+        }
+        public static double dcin()
+        {
+            int error = 1;
+            double pev;
+            while (error == 1)//Вввод переменной 
+            {
+                try
+                {
+                    string per = Console.ReadLine();
+                    pev = double.Parse(per);
+                    return pev;
+                }
+                catch
+                {
+                    cout("Введите корректную переменную: ");
+                }
+                finally { }
+            }
+            return 0;
+        }
+        static void Main(string[] args)
+        {
+            Sqare TT;
+            TT = new Sqare(4);
+            IPrint.Print(TT);
+            Circle circle1;
+            circle1 = new Circle(5);
+            IPrint.Print(circle1);
+
+        }
+    }
+    interface IPrint
+    {
+        private static void cout(string per)
+        {
+            Console.WriteLine(per);
+        }
+        public static void Print(object T)
+        {
+            cout(T.ToString());
+        }
+    }
+    abstract class GeomFigure 
+    {
+        protected double Area;
+        protected string Name;
+        public static void cout(string per)
+        {
+            Console.WriteLine(per);
+        }
+        public static double dcin()
+        {
+            int error = 1;
+            double pev;
+            while (error == 1)//Вввод переменной 
+            {
+                try
+                {
+                    string per = Console.ReadLine();
+                    pev = double.Parse(per);
+                    return pev;
+                }
+                catch
+                {
+                    cout("Введите корректную переменную: ");
+                }
+                finally { }
+            }
+            return 0;
+        }
+       
+        public GeomFigure()
+        {
+           
+        }
+    }
+     class Rectangle : GeomFigure,IPrint
+    {
+        protected double Width;
+        protected double Length;
+        
+        protected Rectangle()
+        {
+            Area = Width * Length;
+        }
+        public Rectangle(double W, double L) 
+        {
+
+            Width = W;
+            Length = L;
+            Area = Width * Length;
+            Name = "Прямоугольник";
+        }
+        public void Display()
+        {
+            cout($"Ширина фигуры {Name} равна:{Width}");
+            cout($"Длина фигуры {Name} равна:{Length}");
+            cout($"Площадь фигуры {Name} равна:{Area}");
+        }
+        public override string ToString()
+        {
+            if (Name == "Прямоугольник") return $"Фигура имеет название: " + Name.ToString() + "\nШирина фигуры: " + Width.ToString() + "\nДлина фигуры: " + Length.ToString() + "\nПлощадь фигуры: " + Area.ToString();
+            else return "";
+        }
+
+    }
+     class Sqare:  Rectangle, IPrint
+    {
+         public Sqare(double W) : base(W,W)
+        {
+            Name = "Квадрат";
+        }
+     public override string ToString()
+        {
+            return $"Фигура имеет название: " + Name.ToString() + "\nШирина && Длина фигуры: " + Width.ToString() + "\nПлощадь фигуры: " + Area.ToString();
+        }
+    }
+    class Circle: GeomFigure, IPrint
+    {
+        private double radius;
+        protected string newArea;
+       public Circle(double R)
+        {
+            radius = R;
+            newArea = $"{radius * radius}*Pi";
+            Name = "Круг";
+        }
+        public double Radius
+        {
+            get
+            {
+                return radius;
+            }
+        }
+        public string name
+        {
+            get
+            {
+                return Name;
+            }
+        }
+        public void display()
+        {
+            cout($"Радиус фигуры {Name}: {radius}");
+        }
+        public override string ToString()
+        {
+            return $"Фигура имеет название: " + Name.ToString() + "\nРадиус фигуры: " + Radius.ToString() + "\nПлощадь фигуры: " + newArea.ToString();
+        }
+    }
+}
