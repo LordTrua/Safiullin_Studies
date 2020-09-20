@@ -1,0 +1,125 @@
+using System;
+using System.IO;
+using static System.Math;
+namespace LabRab_1
+{
+    class Program
+    {
+        static void cout (string per)
+        {
+            Console.WriteLine(per);
+        }
+        static double dcin ()
+        {
+           int error = 1;
+            double pev;
+            while (error == 1)//Вввод переменной 
+            {
+                try
+                {
+                    string per = Console.ReadLine();
+                    pev = double.Parse(per);
+                    return pev;
+                }
+                catch
+                {
+                    cout("Введите корректную переменную: ");
+                }
+                finally { }
+            }
+            return 0; 
+        }
+        static void Main(string[] args)
+        {
+            
+           cout("Разработал: Сафиуллин Антон Павлович РТ5-31Б");
+           cout("Программа \n" +"Решение уравнения: Ax^4+Bx^2+C=Y: ");
+           cout("Введите переменную А: ");
+           double A = dcin();
+            cout("Введите переменную B: ");
+           double B = dcin();
+            cout("Введите переменную C: ");
+            double C = dcin(); 
+            double x1, x2, x3, x4;
+            double Diskr =(B*B) - (4*A*C); // Вычисление дискриминанта 
+            if (Diskr >= 0) // Если дискриминант больше 0, значит корни - числа R
+            {
+                double t1 = -B + Sqrt(Diskr);
+                double t2 = -B - Sqrt(Diskr);
+                if (t1>=0 && t2>=0) { 
+                    x1 = Sqrt(t1 / (2 * A));
+                    x2 = -Sqrt(t1 / (2 * A));
+                    x3 = Sqrt(t2 / (2 * A));
+                    x4 = -Sqrt(t2 / (2 * A));
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    cout($"Дискриминант : {Diskr}");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    cout($"Корень 1: {x1}\nКорень 2: {x2}\nКорень 3: {x3}\nКорень 4: {x4}\n ");
+                    Console.ForegroundColor = ConsoleColor.White;
+                }
+                // Далее идёт разбор случаев с дискриминантом Если одно из значений или оба значения t меньше нуля 
+                else if (t1 < 0 && t2 >= 0)
+                {
+                    double kompt1 = -t1;
+                    string x1k = $"  {-B / (2 * A)}+sqrt({kompt1:F4})i /{2 * A}";
+                    string x2k = $"  {-B / (2 * A)}-sqrt({kompt1:F4})i /{2 * A}";
+                    x3 = Sqrt(t2 / (2 * A));
+                    x4 = -Sqrt(t2 / (2 * A));
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    cout($"Дискриминант: {Diskr}");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    cout($"Корень 1: {x1k}\nКорень 2: {x2k}\nКорень 3: {x3}\nКорень 4: {x4}\n ");
+                    Console.ForegroundColor = ConsoleColor.White;
+                }
+                else if (t1 >= 0 && t2 < 0)
+                {
+                    double kompt1 = -t2;
+                    string x1k = $"  {-B / (2 * A)}+sqrt({kompt1:F4})i /{2 * A}";
+                    string x2k = $"  {-B / (2 * A)}-sqrt({kompt1:F4})i /{2 * A}";
+                    x3 = Sqrt(t1 / (2 * A));
+                    x4 = -Sqrt(t1 / (2 * A));
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    cout($"Дискриминант: {Diskr}");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    cout($"Корень 1: {x1k}\nКорень 2: {x2k}\nКорень 3: {x3}\nКорень 4: {x4}\n ");
+                    Console.ForegroundColor = ConsoleColor.White;
+                }
+                else if (t1<0 && t2<0 )
+                {
+                    double kompt1 = -t1;
+                    double kompt2 = -t2;
+                    string x1k = $"  {-B / (2 * A)}+sqrt(-{B}+sqrt({kompt1:F4}) )i /{2 * A}";
+                    string x2k = $"  {-B / (2 * A)}-sqrt({B}+sqrt({kompt1:F4}) )i/{2 * A}";
+                    string x3k = $"  {-B / (2 * A)}+sqrt(-{B}-sqrt({kompt1:F4}) )i /{2 * A}";
+                    string x4k = $"  {-B / (2 * A)}-sqrt( {B}-sqrt({kompt1:F4}) )i/{2 * A}";
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    cout($"Дискриминант: {Diskr}");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    cout($"Корень 1: {x1k}\nКорень 2: {x2k}\nКорень 3: {x3k}\nКорень 4: {x4k}\n ");
+                    Console.ForegroundColor = ConsoleColor.White;
+                }
+            }
+            else if (Diskr<0)// Если Дискриминант меньше 0, значит формируем комплексные корни
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                double kompDiskr = - Diskr;
+                cout($"Дискриминант: {Diskr}");
+                Console.ForegroundColor = ConsoleColor.White;
+                string x1k, x2k, x3k, x4k;
+                x1k =$"  {-B/(2*A)}+sqrt({kompDiskr:F4})i /{2*A}";
+                x2k = $" {-1*-B / (2 * A)}+sqrt({kompDiskr:F4})i /{2 * A}";
+                x3k = $" {-B / (2 * A)}-sqrt({kompDiskr:F4})i /{2 * A}";
+                x4k = $" {-1*-B / (2 * A)}-sqrt({kompDiskr:F4})i /{2 * A}";
+                Console.ForegroundColor = ConsoleColor.Green;
+                cout($"Корень 1: {x1k}\nКорень 2: {x2k}\nКорень 3: {x3k}\nКорень 4: {x4k}\n ");
+                Console.ForegroundColor = ConsoleColor.White;
+
+            }
+            Console.ResetColor();
+        }
+    }
+}
