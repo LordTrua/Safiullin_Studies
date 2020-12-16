@@ -1,0 +1,13 @@
+C:\Users\antoh\Source\Repos\LabRabota № 7\LabRabota № 7\bin\Debug\netcoreapp3.1\LabRabota № 7.exe
+C:\Users\antoh\Source\Repos\LabRabota № 7\LabRabota № 7\bin\Debug\netcoreapp3.1\LabRabota № 7.deps.json
+C:\Users\antoh\Source\Repos\LabRabota № 7\LabRabota № 7\bin\Debug\netcoreapp3.1\LabRabota № 7.runtimeconfig.json
+C:\Users\antoh\Source\Repos\LabRabota № 7\LabRabota № 7\bin\Debug\netcoreapp3.1\LabRabota № 7.runtimeconfig.dev.json
+C:\Users\antoh\Source\Repos\LabRabota № 7\LabRabota № 7\bin\Debug\netcoreapp3.1\LabRabota № 7.dll
+C:\Users\antoh\Source\Repos\LabRabota № 7\LabRabota № 7\bin\Debug\netcoreapp3.1\LabRabota № 7.pdb
+C:\Users\antoh\Source\Repos\LabRabota № 7\LabRabota № 7\obj\Debug\netcoreapp3.1\LabRabota № 7.csprojAssemblyReference.cache
+C:\Users\antoh\Source\Repos\LabRabota № 7\LabRabota № 7\obj\Debug\netcoreapp3.1\LabRabota № 7.AssemblyInfoInputs.cache
+C:\Users\antoh\Source\Repos\LabRabota № 7\LabRabota № 7\obj\Debug\netcoreapp3.1\LabRabota № 7.AssemblyInfo.cs
+C:\Users\antoh\Source\Repos\LabRabota № 7\LabRabota № 7\obj\Debug\netcoreapp3.1\LabRabota № 7.csproj.CoreCompileInputs.cache
+C:\Users\antoh\Source\Repos\LabRabota № 7\LabRabota № 7\obj\Debug\netcoreapp3.1\LabRabota № 7.dll
+C:\Users\antoh\Source\Repos\LabRabota № 7\LabRabota № 7\obj\Debug\netcoreapp3.1\LabRabota № 7.pdb
+C:\Users\antoh\Source\Repos\LabRabota № 7\LabRabota № 7\obj\Debug\netcoreapp3.1\LabRabota № 7.genruntimeconfig.cache
