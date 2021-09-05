@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "lab2_python_oop", "lab2_python_oop\lab2_python_oop.pyproj", "{14E16BF3-1E22-4C23-9A54-E3CEE958BB52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14E16BF3-1E22-4C23-9A54-E3CEE958BB52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14E16BF3-1E22-4C23-9A54-E3CEE958BB52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0EBE6B27-67F6-418F-85B7-73B676887662}
+	EndGlobalSection
+EndGlobal
