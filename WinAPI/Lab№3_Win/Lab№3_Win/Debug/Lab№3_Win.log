@@ -1,0 +1,4 @@
+﻿  Lab№3_Win.cpp
+C:\Users\antoh\Source\Repos\Lab№3_Win\Lab№3_Win\Lab№3_Win.cpp(10,1): warning C4005: _UNICODE: изменение макроопределения
+C:\Users\antoh\Source\Repos\Lab№3_Win\Lab№3_Win\Lab№3_Win.cpp : message : см. предыдущее определение "_UNICODE"
+  Lab№3_Win.vcxproj -> C:\Users\antoh\Source\Repos\Lab№3_Win\Debug\Lab№3_Win.exe
