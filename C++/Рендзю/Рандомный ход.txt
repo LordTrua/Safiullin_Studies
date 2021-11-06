@@ -1,0 +1,11 @@
+
+            if (r1 == -1 || r2 == -1) // Атака
+            {
+                r1 = getRandomNumber(0, 14);
+                r2 = getRandomNumber(0, 14);
+                while ((fid[r1][r2] == 1) || (fid[r1][r2] == 2))// 2 - Метка компьютера, метка 1- игрока
+                {
+                    r1 = getRandomNumber(0, 14);
+                    r2 = getRandomNumber(0, 14);
+                }
+            }
