@@ -1,0 +1,11 @@
+C:\Users\antoh\Source\Repos\Лаба № 6\Лаба № 6\bin\Debug\Лаба № 6.exe.config
+C:\Users\antoh\Source\Repos\Лаба № 6\Лаба № 6\bin\Debug\Лаба № 6.exe
+C:\Users\antoh\Source\Repos\Лаба № 6\Лаба № 6\bin\Debug\Лаба № 6.pdb
+C:\Users\antoh\Source\Repos\Лаба № 6\Лаба № 6\obj\Debug\Лаба № 6.csprojAssemblyReference.cache
+C:\Users\antoh\Source\Repos\Лаба № 6\Лаба № 6\obj\Debug\Лаба___6.Form1.resources
+C:\Users\antoh\Source\Repos\Лаба № 6\Лаба № 6\obj\Debug\Лаба___6.Properties.Resources.resources
+C:\Users\antoh\Source\Repos\Лаба № 6\Лаба № 6\obj\Debug\Лаба № 6.csproj.GenerateResource.cache
+C:\Users\antoh\Source\Repos\Лаба № 6\Лаба № 6\obj\Debug\Лаба № 6.csproj.CoreCompileInputs.cache
+C:\Users\antoh\Source\Repos\Лаба № 6\Лаба № 6\obj\Debug\Лаба № 6.exe
+C:\Users\antoh\Source\Repos\Лаба № 6\Лаба № 6\obj\Debug\Лаба № 6.pdb
+C:\Users\antoh\Source\Repos\Лаба № 6\Лаба № 6\obj\Debug\Лаба___6.Form2.resources
