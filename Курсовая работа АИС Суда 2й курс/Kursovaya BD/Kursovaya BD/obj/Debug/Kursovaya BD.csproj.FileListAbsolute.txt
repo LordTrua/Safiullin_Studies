@@ -1,0 +1,43 @@
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\bin\Debug\Kursovaya BD.exe.config
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\bin\Debug\Kursovaya BD.exe
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\bin\Debug\Kursovaya BD.pdb
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\bin\Debug\MySql.Data.dll
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\bin\Debug\Google.Protobuf.dll
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\bin\Debug\Zstandard.Net.dll
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\bin\Debug\System.Memory.dll
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\bin\Debug\System.Buffers.dll
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\bin\Debug\MySql.Data.xml
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\obj\Debug\Kursovaya BD.csprojAssemblyReference.cache
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\obj\Debug\Kursovaya_BD.LoginForm.resources
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\obj\Debug\Kursovaya_BD.Properties.Resources.resources
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\obj\Debug\Kursovaya BD.csproj.GenerateResource.cache
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\obj\Debug\Kursovaya BD.csproj.CoreCompileInputs.cache
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\obj\Debug\Kursovaya BD.csproj.CopyComplete
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\obj\Debug\Kursovaya BD.exe
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\obj\Debug\Kursovaya BD.pdb
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\obj\Debug\Kursovaya_BD.Admin_MainForm.resources
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\obj\Debug\Kursovaya_BD.ArchiveForm.resources
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\obj\Debug\Kursovaya_BD.PSUserFrom.resources
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\obj\Debug\Kursovaya_BD.SudUser.resources
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\obj\Debug\Kursovaya_BD.Admin_WorkFrom.resources
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\obj\Debug\Kursovaya_BD.AddWorkerFrom.resources
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\obj\Debug\Kursovaya_BD.Op_Dela.resources
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\obj\Debug\Kursovaya_BD.Op_isks.resources
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\obj\Debug\Kursovaya_BD.dob_Isk.resources
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\obj\Debug\Kursovaya_BD.Add_Man.resources
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\obj\Debug\Kursovaya_BD.Nalog_MainForm.resources
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\obj\Debug\Kursovaya_BD.add_Nalof_Form.resources
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\obj\Debug\Kursovaya_BD.Add_new_delo.resources
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\obj\Debug\Kursovaya_BD.op_zased.resources
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\obj\Debug\Kursovaya_BD.ch_sostav.resources
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\obj\Debug\Kursovaya_BD.add_Resh.resources
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\obj\Debug\Kursovaya_BD.add_pred.resources
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\obj\Debug\Kursovaya_BD.Pred_sp_p.resources
+C:\Users\antoh\Desktop\Stady 2sem 2kurs\БД\Prof\Kursovaya BD\Kursovaya BD\obj\Debug\Kursovaya_BD.Ark_mainform.resources
