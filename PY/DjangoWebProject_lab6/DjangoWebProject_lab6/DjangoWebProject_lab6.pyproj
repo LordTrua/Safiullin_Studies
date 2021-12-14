@@ -1,0 +1,111 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Name>DjangoWebProject_lab6</Name>
+    <RootNamespace>DjangoWebProject_lab6</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>878cfe2a-c010-4936-9106-faba30339361</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{5F0BE9CA-D677-4A4D-8806-6076C0FAAD37};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>manage.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Django launcher</LaunchProvider>
+    <DjangoSettingsModule>DjangoWebProject_lab6.settings</DjangoSettingsModule>
+    <WebBrowserUrl>http://localhost</WebBrowserUrl>
+    <OutputPath>.</OutputPath>
+    <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="lab6\admin.py" />
+    <Compile Include="lab6\apps.py" />
+    <Compile Include="lab6\migrations\__init__.py" />
+    <Compile Include="lab6\models.py" />
+    <Compile Include="lab6\tests.py" />
+    <Compile Include="lab6\views.py" />
+    <Compile Include="lab6\__init__.py" />
+    <Compile Include="manage.py" />
+    <Compile Include="DjangoWebProject_lab6\__init__.py" />
+    <Compile Include="DjangoWebProject_lab6\settings.py" />
+    <Compile Include="DjangoWebProject_lab6\urls.py" />
+    <Compile Include="DjangoWebProject_lab6\wsgi.py" />
+    <Compile Include="stocks\admin.py" />
+    <Compile Include="stocks\apps.py" />
+    <Compile Include="stocks\migrations\__init__.py" />
+    <Compile Include="stocks\models.py" />
+    <Compile Include="stocks\serializers.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="stocks\tests.py" />
+    <Compile Include="stocks\views.py" />
+    <Compile Include="stocks\__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="lab6\templates\lab6\index.html" />
+    <Content Include="requirements.txt" />
+    <Content Include="stocks\templates\stocks\index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DjangoWebProject_lab6\" />
+    <Folder Include="lab6\" />
+    <Folder Include="lab6\migrations\" />
+    <Folder Include="lab6\templates\" />
+    <Folder Include="lab6\templates\lab6\" />
+    <Folder Include="stocks\" />
+    <Folder Include="stocks\migrations\" />
+    <Folder Include="stocks\templates\" />
+    <Folder Include="stocks\templates\stocks\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Django.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
