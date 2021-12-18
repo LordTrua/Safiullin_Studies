@@ -1,0 +1,34 @@
+{% extends 'RK2\\index.html' %}
+{% block title %} Работники отделов {% endblock %}
+{% block body %}
+<div class="d-flex flex-row justify-content-between">
+    <div class="p-2"></div>
+    <div class="p-2">
+        <table class="table table-hover">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Имя</th>
+                    <th scope="col">Фамилия</th>
+                    <th scope="col">Отчетсво</th>
+                    <th scope="col">Должность</th>
+                    <th scope="col">Отдел</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for emp in data.Emps %}
+                <tr>
+                    <th scope="row">{{ emp.id }}</th>
+                    <td>{{ emp.First_Name }}</td>
+                    <td>{{ emp.Second_Name }}</td>
+                    <td>{{ emp.Patronimic }}</td>
+                    <td>{{ emp.Position }}</td>
+                    <td>{{ emp.Dep.Name }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <div class="p-2"></div>
+</div>
+{% endblock %}
