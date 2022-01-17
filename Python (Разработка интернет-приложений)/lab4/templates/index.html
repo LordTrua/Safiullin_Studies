@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Жанры игр</title>
+</head>
+
+<body>
+
+    <h1>Жанры игр</h1>
+    <form method="POST">
+        {% csrf_token %}
+        <table>
+            {{ form }}
+        </table>
+        <input type="submit" value="Send">
+    </form>
+
+
+</body>
+
+</html>
